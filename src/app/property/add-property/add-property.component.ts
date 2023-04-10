@@ -12,7 +12,10 @@ export class AddPropertyComponent implements OnInit {
 
   ngOnInit() {
 
-    this.router = this.router.navigate()
-  }
 
+  }
+  onBack()
+  {
+    this.router.navigate(['/']);
+  }
 }
